@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(30,0,77);
+   
+}
+
+
+
+.main{
+    direction:ltr;
+}
+.center_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    text-align: center;
+    background: rgb(92, 52, 155);
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.task{
+    display: flex;
+    background-color: white;
+    padding: 4px;
+    border-bottom: solid black 1px;
+    transition: box-shadow 0.2s;
+}
+
+.done{
+    background-color: rgb(158,253,160);
+}
+
+.task:hover {
+box-shadow: 0px 3px 15px rgb(97,97,97,0.843);
+}
+
+.tasks{
+    padding: 20px;
+}
+
+.tasks_table{
+    background-color:  rgb(239,239,239);
+    width: 60%;
+  /*  height: 500px;*/
+    margin-top: 130px;
+  
+   
+}
+
+.task-actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+   
+   
+}
+h1{
+    display: inline;
+}
+.add-btn{
+    float: right;
+    background: white;
+    margin-right: 10px;
+}
+button{
+    border: none;
+    font-size: 20px;
+    box-shadow: 0px 3px 5px rgb(168,168,168, 0.38) ;
+}
+
+button.circular{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 0;
+
+}
+.btn-clor_1{
+background-color: rgb(144,0,0);
+color: white;
+}
+.btn-clor_2{
+background-color: rgb(0,150, 30);
+color: white;
+}
+.btn-clor_3{
+    background-color:rgb(0,16,197,0.692) ;
+    color: white;
+
+}
+
+.btn-clor_4{
+    background-color:rgb(118,0,101) ;
+    color: white;
+}
+
+.task-info{
+    width: 70%;
+   
+
+}
+
